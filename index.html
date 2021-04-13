@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- een eigen Stylesheet -->
+    <link href="Content/mrasoft.css" rel="stylesheet" />
+
+    <!-- JavaScript -->
+    <script>
+        function Klik() {
+            alert("Gezien wat Bootstrap en een css-klasse doen?\r\n" +
+                "Zie ook de kleur van de button waarop je hebt geklikt.");
+        }
+    </script>
+</head>
+
+<body>
+    <div style="width:1000px" class="content px-4">
+        <h1 class="mrasoft">Hallo wereld</h1>
+        <p>
+            Dit is de &lt;h1&gt;-tag met onze eigen opmaak.<br />
+            De header heeft onze eigen kleur.
+        </p>
+        <h1>Hallo wereld</h1>
+        <p>
+            Dit is de &lt;h1&gt;-tag met de opmaak van Bootstrap.
+        </p>
+        <button type="button" class="btn btn-info" onclick="Klik()">
+            Gezien?
+        </button>&nbsp;
+        <a href="/navbar.html"  class="btn btn-secondary" 
+           role="button"  aria-disabled="true">Navbar
+        </a>
+    </div>
+</body>
+</html>
