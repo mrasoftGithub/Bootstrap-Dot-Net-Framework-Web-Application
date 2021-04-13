@@ -2,3 +2,5 @@
 Voorbeeldcode horend bij Blog artikel https://www.mrasoft.nl/bootstrap/
 
 Hier staat een ASP .NET Framework 4.7.2. web applicatie. Voor de solution is de Visual Studio 2019 IDE gebruikt.
+
+Lees ook mijn [blog](https://www.mrasoft.nl) over C# en Blazor.
